@@ -1,0 +1,15 @@
+def student_func(x):
+    # 5 February three_five_threefive puzzle. Submission by Eric Cao
+    x = int(input())
+    if x%3==0 and x%5!=0:
+        print("three")
+    elif x%5==0 and x%3!=0:
+        print("five")
+    elif x%3==0 and x%5==0:
+        print("threefive")
+    else:
+        print(x)
+    # be sure to include a `return` statement so that
+    # your function returns the appropriate object.
+    pass
+student_func(x)
